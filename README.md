@@ -1,6 +1,7 @@
 # m2.4.3-invalid-security-or-form-key
 You can apply this patch as well.
 
+```
 diff --git a/App/Action/Plugin/Authentication.php b/App/Action/Plugin/Authentication.php
 index 8227966..19795a5 100644
 --- a/App/Action/Plugin/Authentication.php
@@ -35,3 +36,4 @@ index 8227966..19795a5 100644
  
          if (!$requestUri) {
              return false;
+```
